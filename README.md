@@ -17,4 +17,11 @@ run the command below<br>
 3. open up 2nd termnial and set up ML flow server<br>
 ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/e217426f-6d96-4878-b2cc-18e72a7d4dd1)
 the server listen on localhost:5000 by defualt, so when you open a browser an type in localhost:5000, it will show MLflow interface
+it will create the store-folder in the vs code existing directory<br>
+![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/3ff346a1-408b-4991-8de9-219d5b53130d)
+
+
+4.clone the mlflow github repo <br>
+![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/0bc0480f-8eef-41c4-a001-03fb07640167)
+
 
