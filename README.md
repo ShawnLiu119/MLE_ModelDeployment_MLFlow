@@ -31,5 +31,17 @@ it will create the store-folder in the vs code existing directory<br>
 in Windows use "set", whille Unix use "Export"<br>
 ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/26344549-f551-4fc2-a986-183ad5ffd497)
 
+7. prepare the files for deployment
+   - MLproject(yaml file):defines all scripts ML project need to run <br>
+     ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/ad5041c5-2654-4760-9ef0-77a96389ad6c)
+   - python_env.yaml: you can also define docker image here, if you need a specific environment to ensure reproducibility <br>
+     ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/e62dd61f-65ae-4cff-8d97-e14fb78fb5b7)
+   - train.py <br>
+     ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/dcc2269a-1256-4014-bc66-9afe82b15448)
+     this is the production-level code that you need to compile from Jupyter level code into all function-based code; <br>
+     infer-signature：create signature for the model. The Model Signature in MLflow is integral to the clear and accurate operation of models. It defines the expected format for model inputs and outputs, including any additional parameters needed for inference. This 
+     specification acts as a definitive guide, ensuring seamless model integration with MLflow’s tools and external services <br>
+     log mdoel, and log the score
+
 
 
