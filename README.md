@@ -21,7 +21,15 @@ it will create the store-folder in the vs code existing directory<br>
 ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/3ff346a1-408b-4991-8de9-219d5b53130d)
 
 
-4.clone the mlflow github repo <br>
+4. clone the mlflow github repo <br>
 ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/0bc0480f-8eef-41c4-a001-03fb07640167)
+
+5. change the directory to one of example projects under mlflow imported
+![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/ee5177f2-9adc-4334-8b26-d2994aef3115)
+
+6. output the system variable and point to local host (let the system know that the output from model experiment is export to local<br>
+in Windows use "set", whille Unix use "Export"<br>
+![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/26344549-f551-4fc2-a986-183ad5ffd497)
+
 
 
