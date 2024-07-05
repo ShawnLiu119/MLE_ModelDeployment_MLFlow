@@ -43,5 +43,12 @@ in Windows use "set", whille Unix use "Export"<br>
      specification acts as a definitive guide, ensuring seamless model integration with MLflow’s tools and external services <br>
      log mdoel, and log the score
 
+8. run mlflow experienment in terminal
+   ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/2eba48e1-cc72-4661-ab1c-3a82826e1497)
+   error occurs <br>
+   ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/01c31667-54aa-42a7-954a-78be79ef8c1c)
+   solution <br>
+   
+
 
 
