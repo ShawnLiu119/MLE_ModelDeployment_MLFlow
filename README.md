@@ -48,6 +48,9 @@ in Windows use "set", whille Unix use "Export"<br>
    error occurs <br>
    ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/01c31667-54aa-42a7-954a-78be79ef8c1c)
    solution <br>
+   install pyenv-win (for windows) pacakge (https://github.com/pyenv-win/pyenv-win) <br>
+   ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/bb11e669-9885-4deb-a8b5-18332ce532dc)
+
    
 
 
