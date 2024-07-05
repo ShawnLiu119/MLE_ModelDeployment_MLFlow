@@ -50,8 +50,11 @@ in Windows use "set", whille Unix use "Export"<br>
    solution <br>
    install pyenv-win (for windows) pacakge (https://github.com/pyenv-win/pyenv-win) <br>
    ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/bb11e669-9885-4deb-a8b5-18332ce532dc)
+   In order to leverage virtualenv support with MLflow, pyenv must be installed according to the instructions from https://mlflow.org/docs/latest/models.html#environment-management-tools.<br>
 
-   
+   error again
+   ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/18ee6200-9a4a-4320-9426-705d52565dd3)
+
 
 
 
