@@ -54,7 +54,10 @@ in Windows use "set", whille Unix use "Export"<br>
 
    error again
    ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/18ee6200-9a4a-4320-9426-705d52565dd3)
-
-
-
-
+   main reason reference here:
+   - when pyenv is installed and set as gloabl, the pyenv pip will be used as default pip, all newly installed package will be installed under .pyenv directory "pip install virutalenv"
+   ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/30eccb42-b19f-4efc-b1c8-0206943dd4fc)
+   - However, the previously python version installed in local machine is still in the user variable path and will override pyenv-configure, you need to **delete the path of local version(python312) from user variable path, and restart the local machine**
+   https://stackoverflow.com/questions/63941443/local-python-version-not-changing-after-installing-pyenv-win
+   - return the mlflow command, it will be able to find virtualenv pacakge in the pyenv-managed python version folder
+   
