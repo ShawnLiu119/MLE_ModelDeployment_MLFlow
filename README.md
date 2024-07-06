@@ -72,9 +72,11 @@ in Windows use "set", whille Unix use "Export"<br>
    ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/70823427-0ca8-4f76-87a5-33d3e3b583d1)
 
 
-10. model serving
+10. model serving <br>
+copy the model artifacts full path from the mlflow ui (browser)<br>
+run the command 'mlflow models serve -m + path' <br>
+![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/d392a7d2-03d3-4c8c-9788-beae77122a01)
 
 
-
-11. mlflow error in Google Colab
+12. mlflow error in Google Colab
 https://github.com/dmatrix/google-colab/blob/master/mlflow_issue_3030.ipynb
