@@ -61,3 +61,6 @@ in Windows use "set", whille Unix use "Export"<br>
    https://stackoverflow.com/questions/63941443/local-python-version-not-changing-after-installing-pyenv-win
    - return the mlflow command, it will be able to find virtualenv pacakge in the pyenv-managed python version folder
    
+   error again - the mlflow run was not logged in browser
+
+9. model serving
