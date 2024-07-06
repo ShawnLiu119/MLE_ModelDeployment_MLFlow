@@ -1,6 +1,10 @@
 # MLE_ModelDeployment_MLFlow
 deploy ML model on local using MLFlow 
 
+turorial reference:<br>
+https://www.youtube.com/watch?v=Az7Iv9DUdDw
+https://www.youtube.com/watch?v=cjeCAoW83_U
+
 tool - VS code
 
 1. install MLflow in terminal <br>
@@ -61,9 +65,16 @@ in Windows use "set", whille Unix use "Export"<br>
    https://stackoverflow.com/questions/63941443/local-python-version-not-changing-after-installing-pyenv-win
    - return the mlflow command, it will be able to find virtualenv pacakge in the pyenv-managed python version folder
    
-   error again - the mlflow run was not logged in browser
+   error again - the mlflow run was not logged in browser<br>
+   'mlflow server --host 127.0.0.1 --port 5000" command must be run in the same directory of train.py (mlrun folder), the logged info/metadata/artifacts stored there if "backend-store-uri" has not been specified as option when run mlflow server command
+   right order: 'cd current_directory' ---> 'mlflow server'
+   wrong order: 'mlflow server' at parent folder ---> cd current_directory(where YAML/.py file sit)
+   ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/70823427-0ca8-4f76-87a5-33d3e3b583d1)
 
-9. model serving
 
-10. mlflow error in Google Colab
+10. model serving
+
+
+
+11. mlflow error in Google Colab
 https://github.com/dmatrix/google-colab/blob/master/mlflow_issue_3030.ipynb
