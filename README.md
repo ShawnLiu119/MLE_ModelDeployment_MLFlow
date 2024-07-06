@@ -84,6 +84,14 @@ https://stackoverflow.com/questions/45183355/invoke-webrequest-cannot-bind-param
 you need to format the json string data correctly <br>
 ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/219be58b-6470-43f4-a288-b7dc999d6734)
 
+12. Register model and move the model to production<br>
+register in mlflow ui, a model will be show up in 'Models' tab <br>
+Users transitioned model versions through four fixed stages (from none, to staging, to production, and then to archived) as they proposed, validated, deployed, and deprecated models for their ML use-cases.<br>
+![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/d01031e7-aa82-4814-a942-f821008640be)
 
-13. mlflow error in Google Colab
+13. serve the production model on localhost
+![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/2b2e4db0-39ea-4831-86eb-a6f4858ea6cf)
+This link will work, regardless different versions you have for this same model name, as long as the version is moved to production
+
+12. mlflow error in Google Colab
 https://github.com/dmatrix/google-colab/blob/master/mlflow_issue_3030.ipynb
