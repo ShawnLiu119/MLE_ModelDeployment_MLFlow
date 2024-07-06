@@ -64,3 +64,6 @@ in Windows use "set", whille Unix use "Export"<br>
    error again - the mlflow run was not logged in browser
 
 9. model serving
+
+10. mlflow error in Google Colab
+https://github.com/dmatrix/google-colab/blob/master/mlflow_issue_3030.ipynb
