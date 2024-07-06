@@ -77,6 +77,13 @@ copy the model artifacts full path from the mlflow ui (browser)<br>
 run the command 'mlflow models serve -m + path' <br>
 ![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/d392a7d2-03d3-4c8c-9788-beae77122a01)
 
+11. test model API with test dataframe
+error 1. use curl.exe instead of curl in the command
+https://stackoverflow.com/questions/45183355/invoke-webrequest-cannot-bind-parameter-headers
+![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/b0fcb97f-85ca-40de-8f8f-a7dfe5e9e146)
+you need to format the json string data correctly <br>
+![image](https://github.com/ShawnLiu119/MLE_ModelDeployment_MLFlow/assets/43327902/219be58b-6470-43f4-a288-b7dc999d6734)
 
-12. mlflow error in Google Colab
+
+13. mlflow error in Google Colab
 https://github.com/dmatrix/google-colab/blob/master/mlflow_issue_3030.ipynb
